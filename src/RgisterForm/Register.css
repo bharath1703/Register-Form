@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* background: linear-gradient(120deg, red, blue); */
+  background-image: url(../nature1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(to top, red, blue); */
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  gap: 10px;
+  box-shadow: 0px 0px 5px rgb(3, 3, 3), 0px 0px 10px rgb(5, 5, 5),
+    0px 0px 10px rgb(5, 5, 5);
+  /* border: 2px solid grey; */
+  border-radius: 10px;
+  animation: form;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  backdrop-filter: blur(10px);
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  /* background: linear-gradient(to top, rgb(8, 87, 139), rgb(0, 157, 255)); */
+  color: whitesmoke;
+  background: transparent;
+}
+::placeholder {
+  color: whitesmoke;
+}
+#signupbtn {
+  width: 200px;
+  /* background: linear-gradient(45deg, rgb(5, 41, 65), rgb(17, 129, 203)); */
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  background: transparent;
+  color: whitesmoke;
+  border: 1px solid gray;
+}
+span {
+  color: red;
+  /* box-shadow: 0px 0px 10px red; */
+  font-size: 20px;
+  transform: translateX(-15px);
+  position: absolute;
+}
+h3 {
+  color: aliceblue;
+  margin-top: -30px;
+}
+a {
+  text-decoration: none;
+}
+#eyebtn {
+  transform: translate(0px, 6px);
+  position: fixed;
+  background: none;
+  border: 0px;
+  font-size: 20px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+#passwordshow {
+  /* position: absolute; */
+  transform: translateY(-48px);
+  position: fixed;
+}
+#passwords {
+  /* position: absolute; */
+  transform: translateY(-48px);
+  position: fixed;
+}
+#loginlink {
+  color: rgb(231, 220, 234);
+  transform: translate(190px, -30px);
+  position: absolute;
+}
+
+#passwords {
+  color: whitesmoke;
+}
+#passwordshow {
+  color: whitesmoke;
+}
+#registerlink {
+  transform: translate(60px, -30px);
+  position: absolute;
+  color: whitesmoke;
+}
+#loginlink {
+}
+label {
+  position: absolute;
+  color: whitesmoke;
+  padding-left: 5px;
+  padding-top: 6px;
+  cursor: pointer;
+}
